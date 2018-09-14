@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Giphy a Day",
+    "description": "The most popular gifs from Giphy in your default tab.",
+    "version": "1",
+    "author": "Kara Luton",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
